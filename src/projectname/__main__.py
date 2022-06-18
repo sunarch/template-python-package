@@ -38,7 +38,7 @@ def main() -> None:
                         action='store_const', const=True, default=False,
                         dest='version')
 
-    args = parser.parse_args(sys.argv[1:])
+    args = parser.parse_args()
 
     if args.version:
         print(f'{version.program_name} {version.__version__}')
