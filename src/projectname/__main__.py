@@ -11,7 +11,6 @@ import configparser
 import logging
 import logging.config
 import pkg_resources
-import sys
 
 # imports: project
 from projectname import version
