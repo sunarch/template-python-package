@@ -1,9 +1,8 @@
-Python package template
-=======================
+# Python package template
 
 Replace 'projectname' with the actual name of the project in all places
 
-### License
+## License
 
 [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 
