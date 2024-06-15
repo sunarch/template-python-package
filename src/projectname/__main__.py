@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
-
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+"""Main"""
 
 # imports: library
 from argparse import ArgumentParser
@@ -16,6 +16,8 @@ from projectname import version
 
 
 def main() -> None:
+    """Main"""
+
     libmonty_logging.apply_default_console_and_file(
         version.PROGRAM_NAME,
         version.__version__
